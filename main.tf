@@ -1,12 +1,12 @@
 terraform {
-  backend "remote" {
+ # backend "remote" {
          # The name of your Terraform Cloud organization.
-    organization = "ssm52"
+  #  organization = "ssm52"
 
 #         # The name of the Terraform Cloud workspace to store Terraform state files in.
     workspaces {
       name = "learn-terraform-github-actions"
-    }
+#    }
   }
 }
 
