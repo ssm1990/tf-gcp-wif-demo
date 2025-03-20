@@ -1,10 +1,3 @@
-terraform {
-#         # The name of the Terraform Cloud workspace to store Terraform state files in.
-    workspaces {
-      name = "learn-terraform-github-actions"
-  }
-}
-
 #     # An example resource that does nothing.
 resource "null_resource" "example" {
   triggers = {
