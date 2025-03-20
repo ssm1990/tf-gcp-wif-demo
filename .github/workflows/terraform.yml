@@ -5,6 +5,9 @@ on:
     branches: [ "master" ]
   pull_request:
 
+env:
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+
 permissions:
   contents: read
   id-token: 'write'
